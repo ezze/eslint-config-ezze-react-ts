@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-ezze-react-ts",
+  "version": "0.9.0",
+  "description": "ESLint rules for TypeScript with React",
+  "main": "index.js",
+  "scripts": {
+    "raise": "raisever",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezze/eslint-config-ezze-react-ts.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript",
+    "react"
+  ],
+  "author": "Dmitriy Pushkov <ezze@ezze.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezze/eslint-config-ezze-react-ts/issues"
+  },
+  "homepage": "https://github.com/ezze/eslint-config-ezze-react-ts#readme",
+  "dependencies": {
+    "eslint-config-ezze-ts": "^0.9.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.8.1",
+    "@typescript-eslint/parser": "^4.8.1",
+    "eslint": "^7.0.0"
+  },
+  "devDependencies": {
+    "raise-version": "^0.3.2"
+  }
+}
