@@ -1,17 +1,17 @@
-# eslint-config-ezze-ts
+# eslint-config-ezze-react-ts
 
-[ESLint](http://eslint.org/) configuration for [TypeScript](https://www.typescriptlang.org/).
+[ESLint](http://eslint.org/) configuration for [TypeScript](https://www.typescriptlang.org/) with React support.
 
 ## Installation
 
 ```
-yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-ezze-ts --dev
+yarn add eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-ezze-react-ts --dev
 ```
 
 or
 
 ```
-npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-ezze-ts --save-dev
+npm install eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-config-ezze-react-ts --save-dev
 ```
     
 ## Usage
@@ -20,7 +20,7 @@ Create `.eslintrc.json` file in your project and place the following there:
 
 ```json
 {
-  "extends": "ezze-ts"
+  "extends": "ezze-react-ts"
 }
 ```
     
@@ -28,7 +28,7 @@ See [Shareable configs](http://eslint.org/docs/developer-guide/shareable-configs
 
 ## Contribution
 
-Before making a pull request be sure that your changes are rebased to `develop` branch.
+Before making a pull request be sure your changes are rebased to `develop` branch.
 
 ## License
 
