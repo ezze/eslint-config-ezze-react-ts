@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ezze-react-ts",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "description": "ESLint rules for TypeScript with React",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ezze/eslint-config-ezze-react-ts#readme",
   "dependencies": {
-    "eslint-config-ezze-ts": "^0.9.0"
+    "eslint-config-ezze-ts": "^0.10.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.8.1",
@@ -32,6 +32,6 @@
     "eslint": "^7.0.0"
   },
   "devDependencies": {
-    "raise-version": "^0.3.2"
+    "raise-version": "^0.5.0"
   }
 }
