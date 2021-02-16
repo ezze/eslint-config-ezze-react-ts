@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ezze-react-ts",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "description": "ESLint rules for TypeScript with React",
   "main": "index.js",
   "scripts": {
